@@ -44,22 +44,22 @@ class Xiaomi : public Phone {
    
 Phone* Phone::Create(Phones type) {
     switch(type) {
-        case 0: {
+        case PNokia: {
             return new Nokia();
             break;
         }
         
-        case 1: {
+        case PIphone: {
             return new Iphone();
             break;
         }
         
-        case 2: {
+        case PSamsung: {
             return new Samsung();
             break;
         }
         
-        case 3: {
+        case PXiaomi: {
             return new Xiaomi();
             break;
         }
