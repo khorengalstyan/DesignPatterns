@@ -1,6 +1,4 @@
 #include <iostream>
-#include <string>
-
 
 enum Phones {
     PNokia,
